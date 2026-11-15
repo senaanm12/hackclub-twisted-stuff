@@ -1,12 +1,266 @@
-<!DOCTYPE html>
-<html lang=""en">
-<head>
-    <meta charset=""UTF-8">
-    <meta name=""viewport" content=""width=device-width, initial-scale="1.0">
-    <title>Document</title>
-</head>
-<body class=""background">
-    <div id=""top">
-        <h1 id=""page-title" style=""color:rgb(89, 3, 59)"> Hello, this is my Website, it's to show you all elements in HTML 5 </h1>
-        <a href="#Heading-elements" style="color: rgb(117, 23, 23)"><button id="jump-heading-elements" style="color: rgb(117, 23, 23)">1. Jump to Heading and Elements </button></a><br><br>
-        <a href="#structural-containers-thematic-gr"
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 Elements Guide</title>
+    <style>
+      /* Styling moved here to keep HTML clean and avoid repeating inline styles */
+      body {
+        font-family: sans-serif;
+      }
+      h1 {
+        color: rgb(89, 3, 59);
+      }
+      .nav-btn {
+        color: rgb(117, 23, 23);
+        display: inline-block;
+        margin-bottom: 10px;
+        padding: 5px 10px;
+        text-decoration: none;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+        border-radius: 4px;
+      }
+      .term-title {
+        color: rgb(156, 12, 12);
+        text-decoration: underline;
+        font-weight: bold;
+      }
+      li {
+        margin-bottom: 12px;
+      }
+      li img {
+        display: block;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body class="background">
+    <nav id="top">
+      <h1 id="page-title">
+        Hello, this is my Website, it's to show you all elements in HTML 5
+      </h1>
+
+      <a href="#Heading-elements" class="nav-btn"
+        >1. Jump to Heading and Elements</a
+      ><br />
+      <a href="#structural-containers-thematic-grouping" class="nav-btn"
+        >2. Jump to Structural Containers / Thematic Grouping</a
+      ><br />
+      <a href="#Text-Format-Section" class="nav-btn"
+        >3. Jump to Text Formatting and Inline Elements</a
+      ><br />
+      <a href="#Lists-Section" class="nav-btn">4. Jump to Lists</a><br />
+      <a href="#media-elements-section" class="nav-btn"
+        >5. Jump to Media Elements</a
+      ><br />
+      <a href="#input-sect" class="nav-btn"
+        >6. Jump to Interactive Form Controls</a
+      ><br />
+    </nav>
+
+    <main>
+      <div id="for-html-elements">
+        <h2 id="Heading-elements">1. Heading Elements and Paragraphs</h2>
+        <ol>
+          <li>
+            <span class="term-title">H1 (h1) Element:</span> The main heading
+            used for the primary Title or Subject for a page.
+          </li>
+          <li>
+            <span class="term-title">H2 (h2) Element:</span> Major Subheading
+            used to separate the primary sections of your page.
+          </li>
+          <li>
+            <span class="term-title">H3 (h3) Element:</span> Sub-Subheadings.
+            Used for subsections under h2.
+          </li>
+          <li>
+            <span class="term-title">H4 (h4) Element:</span> Detailed
+            Subsections. Used for deeper nested content under an h3.
+          </li>
+          <li>
+            <span class="term-title">H5 (h5) Element:</span> Minor Points.
+            Rarely used, but is available for categorization under h4.
+          </li>
+          <li>
+            <span class="term-title">H6 (h6) Element:</span> The least
+            significant heading level for nested items.
+          </li>
+          <li>
+            <span class="term-title">Paragraph (p) Element:</span> Used to hold
+            the actual body text and content of the page.
+          </li>
+        </ol>
+
+        <h2>View this image to see the HTML5 H elements</h2>
+        <!-- Note: Replace 'src' with an actual image file URL (.png, .jpg) -->
+        <img
+          id="html5-elements-pic"
+          src="html5_headings_example.png"
+          alt="HTML5 Elements"
+          width="450"
+          height="300"
+        />
+      </div>
+
+      <br />
+      <a href="#top" class="nav-btn">Jump to Top</a>
+      <hr />
+
+      <div id="structural-containers-thematic-grouping">
+        <h2>2. Structural Containers (Semantic Layout)</h2>
+        <ol>
+          <li>
+            <span class="term-title">Navigation (nav) Element:</span> Navigation
+            Links. Wraps your main menu links or table of contents.
+            <img
+              src="nav_element_example.png"
+              id="screen-shot-for-nav"
+              alt="Example of nav element"
+              height="28"
+              width="370"
+            />
+          </li>
+          <li>
+            <span class="term-title">Main (main) Element:</span> The primary
+            content area of the page.
+            <img
+              src="main_element_example.png"
+              id="screen-shot-for-main"
+              alt="Example of main element"
+              height="25"
+              width="370"
+            />
+          </li>
+        </ol>
+
+        <h2 id="thematic-grouping">Thematic Grouping</h2>
+        <ol>
+          <li>
+            <span class="term-title">Aside (aside) Element:</span> Sidebar
+            Content. Holds secondary info, like related links or author bios.
+            <img
+              src="aside_element_example.png"
+              id="screen-shot-for-aside"
+              alt="Example of aside element"
+              height="25"
+              width="370"
+            />
+          </li>
+          <li>
+            <span class="term-title">Footer (footer) Element:</span> Page
+            bottom. Contains copyright notices, privacy links and contact info.
+            <img
+              src="footer_element_example.png"
+              id="screen-shot-for-footer"
+              alt="Example of footer element"
+              height="26"
+              width="370"
+            />
+          </li>
+        </ol>
+      </div>
+
+      <br />
+      <a href="#top" class="nav-btn">Jump to Top</a>
+      <hr />
+
+      <!-- Nov 9 finish 2. and 3. and make sure to add divs and borders -->
+      <div id="Text-Format-Section">
+        <h2 id="Text-Formatting-and-Inline-Elements">
+          3. Text Formatting &amp; Inline Elements
+        </h2>
+        <ol>
+          <li>
+            <span class="term-title">HyperLink (a) Element:</span> Connects your
+            page to another website or file via the href attribute.
+            <img
+              src="a_element_example.png"
+              id="a-example"
+              alt="Example of a element"
+              height="30"
+            />
+          </li>
+          <li>
+            <span class="term-title">Important text (strong) Element:</span>
+            Boldens text to show urgent or important words.
+            <img
+              src="strong_element_example.png"
+              id="strong-example"
+              alt="Example of strong element"
+              height="30"
+            />
+          </li>
+          <li>
+            <span class="term-title">Emphasized text (em) Element:</span>
+            Italicizes words to indicate verbal emphasis or stress.
+            <img
+              src="em_element_example.png"
+              id="em-example"
+              alt="Example of em element"
+              height="30"
+            />
+          </li>
+          <li>
+            <span class="term-title">Line Break (br) Element:</span> Forces text
+            to jump to the next line.
+            <img
+              src="br_element_example.png"
+              id="br-example"
+              alt="Example of br element"
+              height="30"
+              width="333"
+            />
+          </li>
+        </ol>
+      </div>
+
+      <br />
+      <a href="#top" class="nav-btn">Jump to Top</a>
+      <hr />
+
+      <div id="Lists-Section">
+        <h2 id="Lists">4. Organized Lists</h2>
+        <ol>
+          <li>
+            <span class="term-title">Unordered List (ul) Element:</span> Creates
+            a bulleted list of items.
+            <img
+              src="ul_example.png"
+              id="ul-example"
+              alt="Example of ul element"
+              height="85"
+              width="200"
+            />
+          </li>
+          <li>
+            <span class="term-title">Ordered List (ol) Element:</span> Creates a
+            numbered list of items.
+            <img
+              src="ol_example.png"
+              id="ol-example"
+              alt="Example of ol element"
+              height="90"
+            />
+          </li>
+          <li>
+            <span class="term-title">List Item (li) Element:</span> Represents
+            an individual item within
+            <strong style="color: rgb(156, 12, 12)">(ol)</strong> or
+            <strong style="color: rgb(156, 12, 12)">(ul)</strong>.
+            <img
+              src="li_example.png"
+              id="li-example"
+              alt="Example of li element"
+            />
+          </li>
+        </ol>
+      </div>
+
+      <br />
+      <a href="#top" class="nav-btn">Jump to Top</a>
+    </main>
+  </body>
+</html>
