@@ -1,0 +1,246 @@
+/*
+.background {
+  background-image: linear-gradient(
+    to right in hsl shorter hue,
+    #0000ff 7%,
+    rgb(243, 17, 130),
+    #ff9d00 100%,
+    rgb(0, 245, 184) 100%
+  );
+}
+
+.background{
+  background-image: linear-gradient(
+    to right in hsl shorter hue,
+    rgba(206, 0, 117, 0.931) 14%,
+    cyan 80%
+  );
+}
+*/
+
+#top {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+/* Jump Buttons */
+#jump-heading-elements {
+  border: block;
+  border: 2px solid rgb(153, 9, 103);
+  cursor: pointer;
+}
+
+#jump-structural-containers {
+  border: block;
+  border: 2px solid rgb(153, 9, 103);
+  cursor: pointer;
+}
+
+#jump-text-formatting {
+  border: block;
+  border: 2px solid rgb(153, 9, 103);
+  cursor: pointer;
+}
+
+#jump-lists {
+  border: block;
+  border: 2px solid rgb(153, 9, 103);
+  cursor: pointer;
+}
+
+#jump-media-elements {
+  border: 2px solid rgb(153, 9, 103);
+  cursor: pointer;
+}
+
+#jump-inputs {
+  border: block;
+  border: 2px solid rgb(153, 9, 103);
+  cursor: pointer;
+}
+
+#jump-top {
+  border: block;
+  border: 2px solid rgb(153, 9, 103);
+  cursor: pointer;
+}
+
+/* jump buttons above */
+
+/*H elements picture */
+#html5-elements-pic {
+  display: block;
+  margin-top: 15px;
+  border: 6px solid rgb(153, 9, 103); /* Matches your H1 header color */
+  border-radius: 8px;
+}
+
+/* H elements section*/
+
+#for-html-elements {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+/* Structural Containers section*/
+
+#structural-containers-thematic-grouping {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+#screen-shot-for-nav {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+#screen-shot-for-main {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+#screen-shot-for-aside {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+#screen-shot-for-footer {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+/* Text Formatting & Inline Elements section*/
+
+#Text-Format-Section {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+#a-example {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+#b-example {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+#em-example {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+#br-example {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+/* Lists section */
+#Lists-Section {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+#ul-example {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+#ol-example {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+#li-example {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+/* Media Elements section WITH BORDERS */
+
+#media-elements-section {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+#screen-shot-for-img {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+#screen-shot-for-audio {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+#screen-shot-for-video {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+/* Input Elements section */
+
+#input-sect {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+#input-example {
+  display: block;
+  margin-top: 15px;
+  border: 5px solid rgb(153, 9, 103);
+  border-radius: 8px;
+}
+
+/* Media Elements section with gradient borders and background */
+/* #media-elements-section {
+  border: 4px solid transparent;
+  border-radius: 8px;
+
+  background:
+    linear-gradient(to left, rgb(0, 58, 85), rgb(5, 210, 148), rgb(165, 4, 224)) padding-box,
+    linear-gradient(135deg, rgb(0, 58, 85), rgb(5, 210, 148), rgb(165, 4, 224)) border-box;
+
+} */
